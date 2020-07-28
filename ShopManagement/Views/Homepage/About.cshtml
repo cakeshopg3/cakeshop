@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section styles {
+    <link href="~/Content/cakeshop/CSS/[CH Bánh]-[Intro].css" rel="stylesheet" />
+}
+<!--Banner-->
+<div id="carousel-banner" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner banner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="banner-img" src="~/Content/cakeshop/Images/banner-bg.jpg" />
+            </div>
+            <div class="carousel-caption">
+                <h2><strong>GIỚI THIỆU</strong></h2>
+                <p class="banner-link">
+                    <a href="@Url.Action("Index", "Homepage")" style="color: white">Trang chủ &ensp;</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("About", "Homepage")" style="color: white">&ensp; Giới thiệu</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndBanner-->
+<!--Intro-->
+<div class="card-group">
+    <div class="card" style="border: none">
+        <div id="carousel-intro" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Slides-->
+            <div class="carousel-inner introduce" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img src="~/Content/cakeshop/Images/introduction/intro-1.jpg" />
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <img src="~/Content/cakeshop/Images/introduction/intro-2.jpg" />
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <img src="~/Content/cakeshop/Images/introduction/intro-3.jpg" />
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <img src="~/Content/cakeshop/Images/introduction/intro-4.jpg" />
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <img src="~/Content/cakeshop/Images/introduction/intro-5.jpg" />
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <img src="~/Content/cakeshop/Images/introduction/intro-6.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card card-introduction" style="border: none">
+        <div class="card-body">
+            <h5 class="card-tittle">
+                Xin chào, chúng tôi là Cakes with Love!
+            </h5>
+            <h6>
+                <br />Cakes with Love được ra đời với thông điệp mang đam mê của chúng tôi gửi gắm đến bạn qua những chiếc bánh.
+                <br />
+                <br />Sự ra đời của mỗi chiếc bánh đều được chọn lọc kỹ lưỡng tâm huyết của đội ngũ chúng tôi từ khâu nguyên liệu, chế biến. Sản phẩm đến tay người tiêu dùng luôn hội đủ các yếu tố như đảm bảo độ thẩm mỹ, chất lượng, an toàn vệ sinh, giá trị dinh dưỡng…
+                <br />
+                <br />Hãy đến với Cakes with Love để được đáp ứng đầy đủ yêu cầu về mẫu mã sản phẩm, dòng bánh với giá cả phải chăng nhất. Để lựa chọn mẫu bánh và đặt hàng hãy tham khảo thêm tại trang web của chúng tôi.
+            </h6>
+        </div>
+    </div>
+</div>
+<!--EndIntro-->

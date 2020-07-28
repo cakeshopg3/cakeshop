@@ -1,0 +1,99 @@
+﻿@model ShopManagement.Models.product
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Create Category</h6>
+        </div>
+        <div class="card-body">
+            <div class="d-flex justify-content-center">
+                @using (Html.BeginForm("Create", "Product", FormMethod.Post, new { @class = "w-100" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.product_name, htmlAttributes: new { @class = "col-form-label col-md-4 text-lg-right" })
+                        <div class="col-md-5">
+                            @Html.EditorFor(model => model.product_name, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.product_name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.size_id, htmlAttributes: new { @class = "col-form-label col-md-4 text-lg-right" })
+                        <div class="col-md-5">
+                            @Html.DropDownListFor(model => model.size_id, new SelectList(ViewBag.sizes, "id", "size_name"), new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.size_id, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.color_id, htmlAttributes: new { @class = "col-form-label col-md-4 text-lg-right" })
+                        <div class="col-md-5">
+                            @Html.DropDownListFor(model => model.color_id, new SelectList(ViewBag.colors, "id", "color_name"), new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.color_id, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.category, htmlAttributes: new { @class = "col-form-label col-md-4 text-lg-right" })
+                        <div class="col-md-5">
+                            @Html.DropDownListFor(model => model.category, new SelectList(ViewBag.categorylist, "id", "category_name"), new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.category, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.origin_price, htmlAttributes: new { @class = "col-form-label col-md-4 text-lg-right" })
+                        <div class="col-md-5">
+                            @Html.EditorFor(model => model.origin_price, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                            @Html.ValidationMessageFor(model => model.origin_price, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label col-md-4 text-lg-right" for="price">Sale price</label>
+                        <div class="col-md-5">
+                            @Html.EditorFor(model => model.price, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                            @Html.ValidationMessageFor(model => model.price, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.image_url, htmlAttributes: new { @class = "col-form-label col-md-4 text-lg-right" })
+                        <div class="col-md-5">
+                            @Html.EditorFor(model => model.image_url, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.image_url, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.description, htmlAttributes: new { @class = "col-form-label col-md-4 text-lg-right" })
+                        <div class="col-md-5">
+                            @Html.EditorFor(model => model.description, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.description, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.isPopular, htmlAttributes: new { @class = "col-form-label col-md-4 text-lg-right" })
+                        <div class="col-md-5">
+                            @Html.CheckBoxFor(m => m.isPopular, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.isPopular, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row pt-2">
+                        <div class="col-md-offset-2 col-md-10 text-center">
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-primary" })
+                        </div>
+                    </div>
+
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+
+</div>
+

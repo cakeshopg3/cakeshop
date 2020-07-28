@@ -1,0 +1,26 @@
+﻿/*LogIn*/
+.btn-log-in {
+    background-color: #FF9E9E;
+}
+
+    .btn-log-in :hover {
+        background-color: lightskyblue;
+    }
+
+@media only screen and (min-width: 1025px) {
+    .btn-log-in {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .btn-log-in {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+}
+/*EndLogIn*/

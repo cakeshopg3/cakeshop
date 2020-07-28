@@ -1,0 +1,17 @@
+﻿@model ShopManagement.Models.order
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<div class="site-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <span class="icon-check_circle display-3 text-success"></span>
+                <h2 class="display-3 text-black">Thank you!</h2>
+                <p class="lead mb-5">Bạn đã đặt hàng thành công.</p>
+                <p><a href="@Url.Action("Index", "Homepage")" class="btn btn-sm height-auto px-4 py-3 btn-primary">Tiếp tục mua hàng</a></p>
+            </div>
+        </div>
+    </div>
+</div>

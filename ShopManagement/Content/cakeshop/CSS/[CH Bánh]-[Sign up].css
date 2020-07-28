@@ -1,0 +1,30 @@
+﻿/*SignUp*/
+#form-sign-up {
+    margin-bottom: 5%;
+}
+
+.btn-sign-up {
+    background-color: #FF9E9E;
+}
+
+    .btn-sign-up :hover {
+        background-color: lightskyblue;
+    }
+
+@media only screen and (min-width: 1025px) {
+    .btn-sign-up {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .btn-sign-up {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+}
+/*EndSignUp*/

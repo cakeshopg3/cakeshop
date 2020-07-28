@@ -1,0 +1,64 @@
+﻿@model ShopManagement.Models.product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section styles {
+    <link href="~/Content/cakeshop/CSS/[CH Bánh]-[Contact].css" rel="stylesheet" />
+}
+<!--Banner-->
+<div id="carousel-banner" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner banner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="banner-img" src="~/Content/cakeshop/Images/banner-bg.jpg" />
+            </div>
+            <div class="carousel-caption">
+                <h2><strong>LIÊN HỆ</strong></h2>
+                <p class="banner-link">
+                    <a href="@Url.Action("Index", "Homepage")" style="color: white">Trang chủ &ensp;</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("Contact","Homepage")" style="color: white">&ensp; Liên hệ</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndBanner-->
+<!--Contact-->
+<div class="card-group img-news">
+    <div class="card" style="border: none">
+        <div class="card-body">
+            <h5 class="card-title"><strong style="color: #FF9E9E">Gửi lời nhắn cho chúng tôi tại đây!</strong></h5>
+            <div class="form-group">
+                <label for="yourname">Tên của bạn:</label>
+                <input type="text" class="form-control" id="yourname" placeholder="">
+                <label for="yourphone">Số điện thoại của bạn:</label>
+                <input type="tel" class="form-control" id="yourphone" placeholder="">
+                <label for="yourmesage">Lời nhắn của bạn:</label>
+                <textarea type="text" class="form-control" id="yourmesage" placeholder=""></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color:#FF9E9E"><strong>Gửi</strong></button>
+        </div>
+    </div>
+
+    <div class="card card-news" style="border: none">
+        <div class="card-body">
+            <h5 class="card-title"><strong style="color:#FF9E9E">Cakes with Love</strong></h5>
+            <p class="card-text">
+                <br /><br />
+                <i class="fa fa-map-marker" style="color: #FF9E9E" aria-hidden="true"></i>
+                <strong>&emsp;Địa chỉ:&ensp;</strong>59 Nguyễn Đình Chiểu, phường 6, quận 3, TP.HCM
+                <br /><br />
+                <i class="fa fa-phone" style="color: #FF9E9E" aria-hidden="true"></i>
+                <strong>&emsp;Điện thoại:&ensp;</strong>0123 456 789
+                <br /><br />
+                <i class="fa fa-envelope" style="color: #FF9E9E" aria-hidden="true"></i>
+                <strong>&emsp;Email:&ensp;</strong>cakeswithlove-support@gmail.com
+            </p>
+
+        </div>
+    </div>
+</div>
+<!--EndContact-->

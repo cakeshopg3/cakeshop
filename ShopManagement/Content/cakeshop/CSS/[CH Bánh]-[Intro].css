@@ -1,0 +1,16 @@
+﻿/*Intro*/
+.card-group {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 1025px) {
+    .card-introduction {
+        margin-right: 5%;
+    }
+
+    .carousel-fade {
+        margin-left: 10%;
+    }
+}
+/*EndIntro*/

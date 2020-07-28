@@ -1,0 +1,111 @@
+﻿@model IEnumerable<ShopManagement.Models.OrderItemDetail>
+
+@{
+    ViewBag.Title = "Details";
+    Layout = null;
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Orders List</h6>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+            <thead class="thead-dark">
+                <tr>
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        OrderId
+                    </th>
+                    <th>
+                        Product Name
+                    </th>
+                    <th>
+                        Size Name
+                    </th>
+                    <th>
+                        Color Name
+                    </th>
+                    <th>
+                        Quantity
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        Total
+                    </th>
+                </tr>
+            </thead>
+            <tfoot class="thead-dark">
+                <tr>
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        OrderId
+                    </th>
+                    <th>
+                        Product Name
+                    </th>
+                    <th>
+                        Size Name
+                    </th>
+                    <th>
+                        Color Name
+                    </th>
+                    <th>
+                        Quantity
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        Total
+                    </th>
+                </tr>
+            </tfoot>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.order_id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.product_name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.size_name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.color_name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.quantity)
+                        </td>
+                        <td>
+                            @{
+                                var price = item.price;
+                                var price2 = price.ToString("C1",System.Globalization.CultureInfo.CreateSpecificCulture("vi-VN"));
+                            }
+                            @price2
+                        </td>
+                        <td>
+                            @{
+                                var total = (long)(item.price * item.quantity);
+                                var total2 = total.ToString("C1", System.Globalization.CultureInfo.CreateSpecificCulture("vi-VN"));
+                            }
+                            @total2
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

@@ -1,0 +1,105 @@
+﻿@model ShopManagement.Models.product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section styles {
+    <link href="~/Content/cakeshop/CSS/[CH Bánh]-[News].css" rel="stylesheet" />
+}
+<!--Banner-->
+<div id="carousel-banner" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner banner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="banner-img" src="~/Content/cakeshop/Images/banner-bg.jpg" />
+            </div>
+            <div class="carousel-caption">
+                <h2><strong>TIN TỨC</strong></h2>
+                <p class="banner-link">
+                    <a href="@Url.Action("Index", "Homepage")" style="color: white">Trang chủ &ensp;</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("News","Homepage")" style="color: white">&ensp; Tin tức</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndBanner-->
+<!--News-->
+<div class="card-group img-news">
+    <div class="card" style="border: none">
+        <img src="~/Content/cakeshop/Images/news/new1.jpeg" />
+    </div>
+
+    <div class="card card-news" style="border: none">
+        <div class="card-body">
+            <h5 class="card-tittle">
+                GỢI Ý TỐT CHO SỨC KHỎE: PLAIN BAGEL + SỮA CHUA HY LẠP QUẢ MÂM XÔI
+            </h5>
+            <h6>
+                <br />Plain Bagel là chiếc bánh mì vòng được rất nhiều thực khách yêu thích và chọn lựa để sử dụng hằng ngày. Sức hút của chiếc bánh mì này đến từ đặc tính đa năng khi kết hợp với nguyên liệu ăn kèm của Plain Bagel.
+                <br />
+                <br />Với độ dai ngon và hương vị cơ bản thơm dịu, Plain Bagel là cốt bánh nền hoàn hảo để kết hợp cùng sữa chua hy lạp và mâm xôi tươi mới. Đây là một bữa sáng tiện dụng, thơm ngon, giàu dinh dưỡng và đặc biệt tốt sức khoẻ.
+                <br />
+                <br />Sữa chua Hy Lạp là một nguồn cung cấp dinh dưỡng tuyệt vời, nó rất giàu protein, vitamin mà lại chứa ít carb và hàm lượng đường lactose thấp. Loại sữa chua này đặc biệt tốt lành cho hệ tiêu hoá, thân thiện với hệ xương khớp. Ngoài ra, sữa chua Hy lạp còn rất nổi tiếng với tác dụng hỗ trợ cải thiện vóc dáng và làm đẹp cho làn da nên đặc biệt phù hợp với chị em phụ nữ.
+                <br />
+                <br />Trong khi đó quả mâm xôi (hay còn gọi là phúc bồn tử) là một loại thực vật giàu chất xơ, giàu vitamin (K, E, C), anthocyanin, flavonoid, carotenoid, canxi… nên nó được xem như một nguồn dinh dưỡng ‘vàng’ cho cơ thể. Quả mâm xôi nổi bật với các công dụng: phòng chống lão hoá, cải thiện thị giác, tốt cho hệ xương khớp, tăng cường sức đề kháng, cải thiện trí nhớ, bảo vệ tim mạch, hỗ trợ điều trị rối loạn cương dương, phòng chống các bệnh về thần kinh như Parkinson,…
+                <br />
+                <br />Hãy cân nhắc về việc thêm combo tốt cho sức khỏe ‘Plain Bagel + sữa chua Hy Lạp + quả mâm xôi’ vào chế độ ăn uống của mình ngay bạn nhé!
+            </h6>
+        </div>
+    </div>
+</div>
+<!--EndNews-->
+<!--News#-->
+<div class="news-table">
+    <h5 style="color: #FF9E9E">Tin tức khác<br /></h5>
+    <!--Line1-->
+    <div class="card-group combonews">
+        <div class="card news">
+            <img class="card-img-top" src="~/Content/cakeshop/Images/news/new2.jpeg">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-1 text-muted">ĂN KIÊNG KHÔNG CHỈ ĐỂ ĐẸP</h6>
+                <p class="card-text">Ăn kiêng để kiểm soát cân nặng là một nhu cầu của mọi giới tính,[...]</p>
+                <a href="#" class="btn btn-primary-slide">Xem thêm</a>
+            </div>
+        </div>
+        <div class="card news">
+            <img class="card-img-top" src="~/Content/cakeshop/Images/news/new3.jpeg">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-1 text-muted">TẠI SAO BÁNH MÌ CHUA LÀ MỘT TRONG NHỮNG LOẠI BÁNH TỐT CHO SỨC KHOẺ NHẤT!?</h6>
+                <p class="card-text">Sourdough Bread bổ dưỡng hơn bánh mì thường Bánh mì lên men tự nhiên hay[...]</p>
+                <a href="#" class="btn btn-primary-slide">Xem thêm</a>
+            </div>
+        </div>
+        <div class="card news">
+            <img class="card-img-top" src="~/Content/cakeshop/Images/news/new4.jpeg">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-1 text-muted">CHOCOLATE CHIP COOKIE – BỮA ĂN NHẸ TIỆN DỤNG NGON LÀNH</h6>
+                <p class="card-text">Cookie Chocolate Chip là chiếc bánh quy bơ sô cô la giòn tan có xuất[...]</p>
+                <a href="#" class="btn btn-primary-slide">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+    <!--Line2-->
+    <div class="card-group combonews">
+        <div class="card news">
+            <img class="card-img-top" src="~/Content/cakeshop/Images/news/new5.jpeg">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-1 text-muted">LỢI ÍCH TUYỆT VỜI MÀ CHIẾC BÁNH BÍ NHẬT HẠNH NHÂN MANG LẠI</h6>
+                <p class="card-text">Bánh Bí Nhật Hạnh Nhân (Zucchini Almond Loaf Cake) có kết cấu mềm ẩm, vị[...]</p>
+                <a href="#" class="btn btn-primary-slide">Xem thêm</a>
+            </div>
+        </div>
+        <div class="card news">
+            <img class="card-img-top" src="~/Content/cakeshop/Images/news/news6.jpeg">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-1 text-muted">BÁNH CAM VỊ CHANH – CHIẾC BÁNH NGON LÀNH THANH THOÁT</h6>
+                <p class="card-text">Cam và chanh là 2 nguồn nguyên liệu tuyệt vời, được ứng dụng rộng rãi[...]</p>
+                <a href="#" class="btn btn-primary-slide">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndNews#-->

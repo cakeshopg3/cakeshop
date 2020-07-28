@@ -1,0 +1,165 @@
+﻿@model ShopManagement.Models.product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section styles {
+    <link href="~/Content/cakeshop/CSS/[CH Bánh]-[Cart].css" rel="stylesheet" />
+}
+@using DeviceManagement.Models;
+<!--Banner-->
+<div id="carousel-banner" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner banner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="banner-img" src="~/Content/cakeshop/Images/banner-bg.jpg" />
+            </div>
+            <div class="carousel-caption">
+                <h2><strong>GIỎ HÀNG</strong></h2>
+                <p class="banner-link">
+                    <a href="@Url.Action("Index", "Homepage")" style="color: white">Trang chủ &ensp;</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("Menu","Homepage")" style="color: white">&ensp; Giỏ hàng</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndBanner-->
+<!--CartTable-->
+<div id="cart-table-item" class="cart-table">
+    <!--CartTittle-->
+    <div class="card-group cart-table-tittle">
+        <div class="card img-product">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+            </div>
+        </div>
+        <div class="card name-product">
+            <div class="card-body">
+                <h5 class="card-title">Sản phẩm</h5>
+            </div>
+        </div>
+        <div class="card price">
+            <div class="card-body">
+                <h5 class="card-title">Đơn giá</h5>
+            </div>
+        </div>
+        <div class="card quantity">
+            <div class="card-body">
+                <h5 class="card-title">Số lượng</h5>
+            </div>
+        </div>
+        <div class="card note">
+            <div class="card-body">
+                <h5 class="card-title">Tổng Tiền</h5>
+            </div>
+        </div>
+        <div class="card edit">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+            </div>
+        </div>
+    </div>
+    <!--Product1-->
+    @foreach (Item item in (List<Item>)Session["cart"])
+    {
+        <div class="card-group cart-product">
+            <div class="card img-product">
+                <img class="card-img-top" src="@item.product.image_url">
+            </div>
+            <div class="card name-product">
+                <div class="card-body">
+                    <h5 class="card-title">@item.product.product_name</h5>
+                </div>
+            </div>
+            <div class="card price">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-1 text-muted">@string.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", item.product.origin_price)</h6>
+                </div>
+            </div>
+            <div class="card quantity">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-1 text-muted"> @item.Quantity</h6>
+                </div>
+            </div>
+            <div class="card note">
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-1 text-muted">@string.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", item.product.origin_price * item.Quantity)</h6>
+                </div>
+            </div>
+            <div class="card edit">
+                <div class="card-body">
+                    <a href="@Url.Action("Remove", "Cart", new { id = item.product.id })" class="btn btn-danger height-auto btn-lg"><i class="fa fa-trash"></i></a>
+                </div>
+            </div>
+        </div>
+    }
+
+
+    <!--Total-->
+    <div class="card-group cart-total">
+        <div class="card cart-tittle">
+            <div class="card-body">
+                <h5 class="card-title">Tổng tiền:</h5>
+            </div>
+        </div>
+        <div class="card cart-nutotal">
+            <div class="card-body">
+                <h5 class="card-title">
+                    @{
+                        List<Item> cart = (List<Item>)Session["cart"];
+                        var total = cart.Sum(item => item.product.price != null ? item.product.price * item.Quantity : item.product.origin_price * item.Quantity);
+                    }
+                    @string.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", total)
+                </h5>
+            </div>
+        </div>
+    </div>
+    <!--Button-->
+    <div class="card-group cart-button">
+        <div class="card cart-shopping">
+            <div class="card-body">
+                <a href="@Url.Action("Menu", "Homepage")" class="btn btn-primary-cart-table1"><strong>Tiếp tục mua hàng</strong></a>
+            </div>
+        </div>
+        <div class="card cart-payment">
+            <div class="card-body">
+                <a href="@Url.Action("Payment", "Homepage")" class="btn btn-primary-cart-table"><strong>Thanh toán</strong></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndCartTable-->
+<!--ComboProduct-->
+<div id="multi-item-combo" class="carousel slide carousel-multi-item-combo" data-ride="carousel">
+    <h5 style="color: #FF9E9E">Sản phẩm thường mua cùng</h5>
+    <!--Controls-->
+    <div class="controls-top">
+        <a class="btn-floating" href="#multi-item-combo" data-slide="prev"><i class="fas fa-chevron-left" style="color: #FF9E9E"></i></a>
+        <a class="btn-floating" href="#multi-item-combo" data-slide="next"><i class="fas fa-chevron-right" style="color: #FF9E9E"></i></a>
+    </div>
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+            <div class="card-group combo">
+                @foreach (var item in ViewBag.bestSeller)
+                {
+                    <div class="card slide">
+                        <img class="card-img-top" src="@item.image_url">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-1 text-muted">Birthday Candle Sparklers</h6>
+                            <p class="card-text">@string.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", item.origin_price)</p>
+                            <a href="@Url.Action("ProductDetail", "Homepage", new { id = item.id})" class="btn btn-primary-slide">Thêm vào giỏ hàng</a>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!--EndComboProduct-->

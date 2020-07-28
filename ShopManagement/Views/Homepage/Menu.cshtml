@@ -1,0 +1,129 @@
+﻿@model ShopManagement.Models.product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section styles {
+    <link href="~/Content/cakeshop/CSS/[CH Bánh]-[Menu].css" rel="stylesheet" />
+}
+<!--Banner-->
+<div id="carousel-banner" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner banner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="banner-img" src="~/Content/cakeshop/Images/banner-bg.jpg" />
+            </div>
+            <div class="carousel-caption">
+                <h2><strong>MENU</strong></h2>
+                <p class="banner-link">
+                    <a href="@Url.Action("Index", "Homepage")" style="color: white">Trang chủ &ensp;</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("Menu","Homepage")" style="color: white">&ensp; Menu</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndBanner-->
+<!--Menu-->
+<div class="row menu">
+    <!--Categories-->
+    <div class="col-sm-4 col-md-3">
+        <div class="accordion" id="myaccordion_categories" style="max-width: 320px">
+            <div class="card categories">
+                <div class="card-header" data-toggle="collapse" data-target="#danhmucsp" data-parent="#myaccordion_categories">
+                    <h5 style="color: #FF9E9E">Danh mục sản phẩm</h5>
+                </div>
+                <div class="card-body collapse" data-toggle="collapse" aria-expanded="false" id="danhmucsp">
+                    @foreach (var item in ViewBag.categories)
+                    {
+                        <a class="list-group-item detail" href="@Url.Action("Menu","Homepage", new { id = item.id})">@item.category_name</a>
+                    }
+                </div>
+            </div>
+
+           
+            <div class="card categories">
+                <div class="card-header" data-toggle="collapse" data-target="#spnoibat" aria-expanded="true"
+                     data-parent="myaccordion_categories">
+                    <h5 style="color: #FF9E9E">Sản phẩm nổi bật</h5>
+                </div>
+                <div class="card-body collapse show" data-toggle="collapse" aria-expanded="false" id="spnoibat">
+                    @foreach (var item in ViewBag.productsPopular)
+                    {
+                        <div class="card product">
+                            <img class="card-img-top" src="@item.image_url" alt="">
+                            <div class="card-footer text-muted">
+                                <a href="@Url.Action("ProductDetail", "Homepage", new { id = item.id})">@item.product_name</a>
+                                <p class="card-text">@string.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", item.origin_price)</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="card categories">
+                <div class="card-header" data-toggle="collapse" data-target="#spkhuyenmai" aria-expanded="true"
+                     data-parent="myaccordion_categories">
+                    <h5 style="color: #FF9E9E">Sản phẩm khuyến mãi</h5>
+                </div>
+                <div class="card-body collapse show" data-toggle="collapse" aria-expanded="false" id="spkhuyenmai">
+                    @foreach (var item in ViewBag.productSales)
+                    {
+                        <div class="card product">
+                            <strong style="padding: 1%; color: white; background-color: red; position: absolute;">-10%</strong>
+                            <img class="card-img-top" src="@item.image_url" alt="">
+                            <div class="card-footer text-muted">
+                                <a href="@Url.Action("ProductDetail", "Homepage", new { id = item.id})">@item.product_name</a>
+                                <p class="card-text">@string.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", item.origin_price)</p>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Products-->
+    <div class="col-sm-8 col-md-9">
+        <!--Sort-->
+        <div class="card-deck">
+            <div class="card product" id="sx">
+                <div class="dropdown">
+                    <div class="dropdown-toggle card-header btn" data-toggle="dropdown">
+                        <strong>Sắp xếp thứ tự</strong>
+                    </div>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="@Url.Action("Menu", "Homepage")?orderBy=asc">Name, A to Z</a>
+                        <a class="dropdown-item" href="@Url.Action("Menu", "Homepage")?orderBy=desc">Name, Z to A</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="@Url.Action("Menu", "Homepage")?orderByMoney=desc">Giá từ cao-thấp</a>
+                        <a class="dropdown-item" href="@Url.Action("Menu", "Homepage")?orderByMoney=asc">Giá từ thấp-cao</a>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+        <!--List Products-->
+        <div class="row">
+
+            @foreach (var item in ViewBag.allProduct)
+            {
+                <div class="col-4">
+                    <img class="card-img-top" src="@item.image_url" alt="">
+                    <div class="card-body">
+                        <a href="@Url.Action("ProductDetail", "Homepage", new { id = item.id})">@item.product_name</a>
+                        <p class="card-text">@string.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", item.origin_price)</p>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+    
+    </div>
+</div>
+<!--EndMenu-->

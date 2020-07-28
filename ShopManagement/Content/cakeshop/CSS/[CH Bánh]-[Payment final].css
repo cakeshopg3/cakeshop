@@ -1,0 +1,35 @@
+﻿/*Payment*/
+.card-news {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.return-cart {
+    border-color: #FF9E9E;
+}
+
+    .return-cart :hover {
+        background-color: linen;
+    }
+
+.order {
+    background-color: #FF9E9E;
+}
+
+    .order :hover {
+        background-color: linen;
+    }
+
+@media only screen and (min-width: 1024px) {
+    .card-news {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+}
+/*EndPayment*/

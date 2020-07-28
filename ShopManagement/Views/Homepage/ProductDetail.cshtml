@@ -1,0 +1,188 @@
+﻿@model ShopManagement.Models.product
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section styles {
+    <link href="~/Content/cakeshop/CSS/[CH Bánh]-[Product detail].css" rel="stylesheet" />
+}
+<!--Banner-->
+<div id="carousel-banner" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner banner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="banner-img" src="~/Content/cakeshop/Images/banner-bg.jpg" />
+            </div>
+            <div class="carousel-caption">
+                <h2><strong>Chi tiết sản phẩm</strong></h2>
+                <p class="banner-link">
+                    <a href="@Url.Action("Index", "Home")" style="color: white">Trang chủ &ensp;</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("Menu","Homepage")" style="color: white">&ensp; Sản phẩm</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("ProductDetail","Homepage")" style="color: white">&ensp; Chi tiết sản phẩm</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndBanner-->
+<!--ProductDetail-->
+<div class="card-group product-detail">
+    <div class="card card-product-img" style="border: none">
+        <img class="card-img-top" src="@ViewBag.productDetail.image_url">
+    </div>
+
+    <div class="card card-product-detail" style="border: none">
+        <div class="card-body">
+
+            <div class="card detailprd">
+                <p><strong>Giá tiền: </strong>&emsp; @string.Format(System.Globalization.CultureInfo.GetCultureInfo("vi-VN"), "{0:C0}", @ViewBag.productDetail.origin_price)</p>
+            </div>
+
+            <div class="card detailprd">
+                <p>
+                    <strong>Mô tả: </strong>
+                    @ViewBag.productDetail.description
+                </p>
+            </div>
+
+            <div class="card detailprd">
+                <p style="display: inline-flex ">
+                    <strong>Size bánh: &emsp;</strong>
+                    <select id="inputState" class="form-control">
+                        <option selected disabled>Chọn Size</option>
+                        @foreach (var item in ViewBag.sizes)
+                        {
+                            <option>@item.size_name</option>
+                        }
+                    </select>
+                </p>
+            </div>
+
+            <div class="card detailprd">
+                <p style="display: inline-flex ">
+                    <strong>Lượng đường:</strong>
+                    <select id="inputState" class="form-control">
+                        <option selected>100%</option>
+                        <option>70%</option>
+                        <option>50%</option>
+                    </select>
+                </p>
+            </div>
+
+           
+
+            <div class="card detailprd">
+                <p style="display: inline-flex "><strong>Số lượng: &emsp;</strong><input id="quantity" class="form-control text-center" value="1" type="number"></p>
+            </div>
+        </div>
+        <div class="card-footer text-muted" style="align-self: center">
+            <a href="#" onclick="addToCart()" class="btn btn-primary-table" style="background-color: #FF9E9E; color: white"><strong>Thêm vào giỏ hàng</strong></a>
+        </div>
+    </div>
+</div>
+<!--EndProductDetail-->
+<!--ComboProduct-->
+<div id="multi-item-combo" class="carousel slide carousel-multi-item-combo" data-ride="carousel">
+    <h5 style="color: #FF9E9E">Sản phẩm thường mua cùng</h5>
+    <!--Controls-->
+    <div class="controls-top">
+        <a class="btn-floating" href="#multi-item-combo" data-slide="prev"><i class="fas fa-chevron-left" style="color: #FF9E9E"></i></a>
+        <a class="btn-floating" href="#multi-item-combo" data-slide="next"><i class="fas fa-chevron-right" style="color: #FF9E9E"></i></a>
+    </div>
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+            <div class="card-group combo">
+                @foreach (var item in ViewBag.productCate)
+                {
+                    <div class="card slide">
+                        <img class="card-img-top" src="@item.image_url">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-1 text-muted">@item.product_name</h6>
+                            <p class="card-text">@item.origin_price</p>
+
+                            <a href="@Url.Action("Buy", "Cart", new { id = ViewBag.productDetail.id })?quantity=1" class="btn btn-primary-slide">Thêm vào giỏ hàng</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--EndComboProduct-->
+<!--Best-seller-->
+<div id="multi-item-best-seller" class="carousel slide carousel-multi-item" data-ride="carousel">
+    <h5 style="color: #FF9E9E">Best-sellers</h5>
+
+    <!--Controls-->
+    <div class="controls-top">
+        <a class="btn-floating" href="#multi-item-best-seller" data-slide="prev"><i class="fas fa-chevron-left" style="color: #FF9E9E"></i></a>
+        <a class="btn-floating" href="#multi-item-best-seller" data-slide="next"><i class="fas fa-chevron-right" style="color: #FF9E9E"></i></a>
+    </div>
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#multi-item-best-seller" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-best-seller" data-slide-to="1"></li>
+        <li data-target="#multi-item-best-seller" data-slide-to="2"></li>
+    </ol>
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+            <div class="card-group best-seller">
+                @foreach (var item in ViewBag.bestSeller)
+                {
+                    <div class="card slide">
+                        <img class="card-img-top" src="@item.image_url">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-1 text-muted">@item.product_name</h6>
+                            <p class="card-text"></p>
+                            <a href="@Url.Action("Buy", "Cart", new { id = ViewBag.productDetail.id })?quantity=1" class="btn btn-primary-slide">Thêm vào giỏ hàng</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndBest-seller-->
+<!--Review-->
+<div class="card-group review">
+    <div class="card t-rating" style="border:none;">
+        <div class="card cmt-t" style="border:none;">
+            <h5 style="color: #FF9E9E">Khách hàng đánh giá:</h5>
+        </div>
+        <div class="rating">
+            <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+            <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+            <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+            <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+            <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+        </div>
+    </div>
+    <div class="card comment" style="border:none;">
+        <textarea type="text" class="form-control" id="yourmesage" placeholder="Viết nhận xét"></textarea>
+        <button type="submit" class="btn btn-primary" style="background-color:#FF9E9E"><strong>Nhận xét</strong></button>
+    </div>
+</div>
+<!--EndReview-->
+@section scripts {
+    <script type="text/javascript">
+        $(function () {
+            console.log("ready!");
+        });
+        function addToCart() {
+
+            var url = "@Url.Action("Buy", "Cart", new { id = ViewBag.productDetail.id })" + "?quantity=" + $("#quantity").val();
+
+            window.location.href = url;
+        }
+    </script>
+}

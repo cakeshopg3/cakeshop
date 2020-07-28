@@ -1,0 +1,157 @@
+﻿/*ProductDetail*/
+.product-detail {
+    margin-top: 5%;
+}
+
+.detailprd-tittle {
+    text-align: center;
+    border: none;
+}
+
+.detailprd {
+    border: none;
+}
+
+.btn :hover {
+    background-color: linen;
+}
+
+@media only screen and (min-width: 1024px) {
+    .product-detail {
+        margin: 5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+}
+/*EndProductDetail*/
+
+/*ComboProduct*/
+#multi-item-combo {
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+@media only screen and (min-width: 1025px) {
+    #multi-item-combo {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #multi-item-combo {
+        width: 100%;
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #multi-item-combo {
+        width: 100%;
+        height: 70%;
+    }
+}
+/*EndComboProduct*/
+
+/*Best-seller*/
+#multi-item-best-seller {
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+@media only screen and (min-width: 1025px) {
+    #multi-item-best-seller {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #multi-item-best-seller {
+        width: 100%;
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #multi-item-best-seller {
+        width: 100%;
+        height: 70%;
+    }
+}
+/*EndBest-seller*/
+
+/*Review*/
+.review {
+    margin-bottom: 5%;
+}
+
+.cmt-t {
+    width: 35%;
+}
+
+/*Rating*/
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+    .rating > input {
+        display: none
+    }
+
+    .rating > label {
+        position: relative;
+        width: 1em;
+        font-size: 3vw;
+        color: #FFD600;
+        cursor: pointer
+    }
+
+        .rating > label::before {
+            content: "\2605";
+            position: absolute;
+            opacity: 0
+        }
+
+        .rating > label:hover:before,
+        .rating > label:hover ~ label:before {
+            opacity: 1 !important
+        }
+
+    .rating > input:checked ~ label:before {
+        opacity: 1
+    }
+
+    .rating:hover > input:checked ~ label:before {
+        opacity: 0.4
+    }
+
+@media only screen and (min-width: 1025px) {
+    .review {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .rating > label {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .rating > label {
+        font-size: 7vw;
+    }
+}
+
+
+/*EndReview*/

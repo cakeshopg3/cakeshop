@@ -1,0 +1,53 @@
+﻿/*Welcome*/
+
+@media only screen and (min-width: 1025px) {
+    #carousel-welcome {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #carousel-welcome {
+        width: 100%;
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #carousel-welcome {
+        width: 100%;
+        height: 70%;
+    }
+}
+/*EndWelcome*/
+
+/*Best-seller*/
+#multi-item-best-seller {
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+@media only screen and (min-width: 1025px) {
+    #multi-item-best-seller {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #multi-item-best-seller {
+        width: 100%;
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #multi-item-best-seller {
+        width: 100%;
+        height: 70%;
+    }
+}
+/*EndBest-seller*/

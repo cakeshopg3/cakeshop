@@ -1,0 +1,585 @@
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\ShopManagement.dll.config
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\ShopManagement.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\ShopManagement.pdb
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\csc.exe
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\csc.exe.config
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\csc.rsp
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\csi.exe
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\csi.exe.config
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\csi.rsp
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.Managed.Core.targets
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.AppContext.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Collections.Immutable.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Console.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Globalization.Calendars.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.IO.Compression.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.IO.FileSystem.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Net.Http.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Net.Sockets.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Reflection.Metadata.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.ValueTuple.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Xml.XmlDocument.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Xml.XPath.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\vbc.exe
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\vbc.exe.config
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\vbc.rsp
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\VBCSCompiler.exe
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\roslyn\VBCSCompiler.exe.config
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\Antlr3.Runtime.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\EntityFramework.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\EntityFramework.SqlServer.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\Microsoft.Web.Infrastructure.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\Newtonsoft.Json.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\PagedList.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\PagedList.Mvc.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.Helpers.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.Mvc.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.Optimization.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.Razor.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.WebPages.Deployment.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.WebPages.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.WebPages.Razor.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\WebGrease.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\EntityFramework.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\EntityFramework.SqlServer.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\PagedList.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\PagedList.Mvc.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.Helpers.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.Mvc.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.Optimization.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.Razor.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.WebPages.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.WebPages.Deployment.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\System.Web.WebPages.Razor.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\Newtonsoft.Json.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\Antlr3.Runtime.pdb
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\CakeShop.csprojAssemblyReference.cache
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.AddProperty.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.addd.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.addorignprie.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore2.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore3.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.InitialCreate.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.AddColorSize.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable2.resources
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\CakeShop.csproj.GenerateResource.cache
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\CakeShop.csproj.CoreCompileInputs.cache
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\CakeShop.csproj.CopyComplete
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.dll
+F:\CodeThue\.NET\An Yen\CakeShop\ShopManagement\obj\Debug\ShopManagement.pdb
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\ShopManagement.dll.config
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\ShopManagement.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\ShopManagement.pdb
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csc.exe
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csc.exe.config
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csc.rsp
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csi.exe
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csi.exe.config
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csi.rsp
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.AppContext.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Console.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Net.Http.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Net.Sockets.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\vbc.exe
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\vbc.exe.config
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\vbc.rsp
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\Antlr3.Runtime.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\EntityFramework.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\Newtonsoft.Json.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\PagedList.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\PagedList.Mvc.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Helpers.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Mvc.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Optimization.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Razor.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\WebGrease.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\EntityFramework.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\PagedList.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\PagedList.Mvc.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Helpers.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Mvc.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Optimization.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Razor.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\Newtonsoft.Json.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\Antlr3.Runtime.pdb
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\CakeShop.csprojAssemblyReference.cache
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddProperty.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.addd.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.addorignprie.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore2.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore3.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.InitialCreate.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddColorSize.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable2.resources
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\CakeShop.csproj.GenerateResource.cache
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\CakeShop.csproj.CopyComplete
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.dll
+C:\Users\t\Downloads\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.pdb
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\ShopManagement.dll.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\ShopManagement.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\ShopManagement.pdb
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csc.exe
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csc.exe.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csc.rsp
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csi.exe
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csi.exe.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\csi.rsp
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.AppContext.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Console.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Net.Http.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Net.Sockets.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\vbc.exe
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\vbc.exe.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\vbc.rsp
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\Antlr3.Runtime.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\EntityFramework.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\Newtonsoft.Json.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\PagedList.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\PagedList.Mvc.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Helpers.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Mvc.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Optimization.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Razor.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\WebGrease.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\EntityFramework.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\PagedList.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\PagedList.Mvc.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Helpers.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Mvc.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Optimization.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.Razor.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\Newtonsoft.Json.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\Antlr3.Runtime.pdb
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\CakeShop.csprojAssemblyReference.cache
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddProperty.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.addd.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.addorignprie.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore2.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore3.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.InitialCreate.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddColorSize.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable2.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\CakeShop.csproj.GenerateResource.cache
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\CakeShop.csproj.CopyComplete
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master\ShopManagement\obj\Debug\ShopManagement.pdb
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\ShopManagement.dll.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\ShopManagement.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\ShopManagement.pdb
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\csc.exe
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\csc.exe.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\csc.rsp
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\csi.exe
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\csi.exe.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\csi.rsp
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.AppContext.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Console.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.IO.Compression.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Net.Http.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Net.Sockets.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.ValueTuple.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Xml.XPath.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\vbc.exe
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\vbc.exe.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\vbc.rsp
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\Antlr3.Runtime.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\EntityFramework.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\EntityFramework.SqlServer.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\Newtonsoft.Json.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\PagedList.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\PagedList.Mvc.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.Helpers.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.Mvc.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.Optimization.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.Razor.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.WebPages.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\WebGrease.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\EntityFramework.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\EntityFramework.SqlServer.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\PagedList.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\PagedList.Mvc.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.Helpers.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.Mvc.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.Optimization.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.Razor.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.WebPages.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\Newtonsoft.Json.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\Antlr3.Runtime.pdb
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\CakeShop.csprojAssemblyReference.cache
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.AddProperty.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.addd.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.addorignprie.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.AddMore.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.AddMore2.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.AddMore3.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.InitialCreate.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.AddColorSize.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable2.resources
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\CakeShop.csproj.GenerateResource.cache
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\CakeShop.csproj.CopyComplete
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.dll
+C:\Users\t\Downloads\New folder\New folder\dotnet-CakeShop-master-edit\CakeShop\obj\Debug\ShopManagement.pdb
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\ShopManagement.dll.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\ShopManagement.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\ShopManagement.pdb
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\csc.exe
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\csc.exe.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\csc.rsp
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\csi.exe
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\csi.exe.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\csi.rsp
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.AppContext.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Console.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.IO.Compression.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Net.Http.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.ValueTuple.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\vbc.exe
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\vbc.exe.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\vbc.rsp
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\Antlr3.Runtime.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\EntityFramework.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\EntityFramework.SqlServer.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\Newtonsoft.Json.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\PagedList.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\PagedList.Mvc.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.Helpers.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.Mvc.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.Optimization.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.Razor.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.WebPages.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\WebGrease.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\EntityFramework.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\EntityFramework.SqlServer.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\PagedList.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\PagedList.Mvc.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.Helpers.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.Mvc.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.Optimization.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.Razor.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.WebPages.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\Newtonsoft.Json.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\Antlr3.Runtime.pdb
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\CakeShop.csprojAssemblyReference.cache
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.AddProperty.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.addd.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.addorignprie.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.AddMore.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.AddMore2.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.AddMore3.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.InitialCreate.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.AddColorSize.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable2.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\CakeShop.csproj.GenerateResource.cache
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\CakeShop.csproj.CoreCompileInputs.cache
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\CakeShop.csproj.CopyComplete
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\CakeShop\obj\Debug\ShopManagement.pdb
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\ShopManagement.dll.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\ShopManagement.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\ShopManagement.pdb
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\csc.exe
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\csc.exe.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\csc.rsp
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\csi.exe
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\csi.exe.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\csi.rsp
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.AppContext.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Console.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Net.Http.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\vbc.exe
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\vbc.exe.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\vbc.rsp
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\Antlr3.Runtime.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\EntityFramework.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\Newtonsoft.Json.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\PagedList.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\PagedList.Mvc.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.Helpers.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.Mvc.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.Optimization.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.Razor.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.WebPages.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\WebGrease.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\EntityFramework.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\PagedList.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\PagedList.Mvc.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.Helpers.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.Mvc.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.Optimization.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.Razor.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.WebPages.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\Newtonsoft.Json.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\Antlr3.Runtime.pdb
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\CakeShop.csprojAssemblyReference.cache
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.AddProperty.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.addd.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.addorignprie.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore2.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.AddMore3.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.InitialCreate.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.AddColorSize.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.Migrations.AddSizeTableColorTable2.resources
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\CakeShop.csproj.GenerateResource.cache
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\CakeShop.csproj.CoreCompileInputs.cache
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\CakeShop.csproj.CopyComplete
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.dll
+C:\Users\nabin\Downloads\Group3-CakeShop-edit-final\ShopManagement\obj\Debug\ShopManagement.pdb

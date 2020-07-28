@@ -1,0 +1,49 @@
+﻿
+/*Menu*/
+.product {
+    border: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .mobile_filter {
+        display: none;
+    }
+    .menu {
+        margin-top: 5%;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .mobile_filter {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .filter {
+        display: none;
+    }
+
+    .product_filter_web {
+        display: none;
+    }
+
+    #myaccordion_mobile {
+        top: 14%;
+        position: fixed;
+        z-index: 7;
+    }
+
+    #sx {
+        top: 7%;
+        position: fixed;
+        z-index: 10;
+    }
+
+    
+}
+/*EndMenu*/
+
+

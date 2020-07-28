@@ -1,0 +1,54 @@
+﻿@model ShopManagement.Models.user
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section styles {
+    <link href="~/Content/cakeshop/CSS/[CH Bánh]-[Sign up].css" rel="stylesheet" />
+}
+<!--Banner-->
+<div id="carousel-banner" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner banner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="banner-img" src="~/Content/cakeshop/Images/banner-bg.jpg" />
+            </div>
+            <div class="carousel-caption">
+                <h2><strong>ĐĂNG KÝ</strong></h2>
+                <p class="banner-link">
+                    <a href="@Url.Action("Index", "Homepage")" style="color: white">Trang chủ &ensp;</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("Register","Homepage")" style="color: white">&ensp; Đăng ký</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndBanner-->
+<!--SignUp-->
+<div id="form-sign-up" class="sign-up">
+    <div class="card phone-number" style="border-style: none">
+        <div class="card-body">
+            <label for="yourname">Họ tên:</label>
+            <input class="form-control text-center" value="" type="text">
+        </div>
+    </div>
+    <div class="card phone-number" style="border-style: none">
+        <div class="card-body">
+            <label for="yourphone">Số điện thoại:</label>
+            <input class="form-control text-center" value="" type="text">
+        </div>
+    </div>
+    <div class="card password" style="border-style: none">
+        <div class="card-body">
+            <label for="yourpass">Password:</label>
+            <input class="form-control text-center" value="" type="password">
+        </div>
+    </div>
+    <div class="card btn-sign-up" style="border-style: none">
+        <div class="card-body">
+            <a href="#" class="btn btn-signup" style="color: white"><strong>Đăng ký</strong></a>
+        </div>
+    </div>
+</div>
+<!--EndSignUp-->

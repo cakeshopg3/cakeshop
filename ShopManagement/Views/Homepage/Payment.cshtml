@@ -1,0 +1,129 @@
+﻿@model ShopManagement.Models.order
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+@section styles {
+    <link href="~/Content/cakeshop/CSS/[CH Bánh]-[Payment].css" rel="stylesheet" />
+}
+<!--Banner-->
+<div id="carousel-banner" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner banner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="banner-img" src="~/Content/cakeshop/Images/banner-bg.jpg" />
+            </div>
+            <div class="carousel-caption">
+                <h2><strong>THANH TOÁN</strong></h2>
+                <p class="banner-link">
+                    <a href="@Url.Action("Index", "Homepage")" style="color: white">Trang chủ &ensp;</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("Carts", "Homepage")" style="color: white">&ensp; Giỏ hàng</a>
+                    <a href="#"><i class="fas fa-chevron-right" style="color: white"></i></a>
+                    <a href="@Url.Action("Payment","Homepage")" style="color: white">&ensp; Thanh toán</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--EndBanner-->
+<!--Payment-->
+
+<div class="card" style="border: none">
+    <div class="card-body">
+        <h5 class="card-title"><strong style="color: #FF9E9E">Thông tin mua hàng</strong></h5>
+        @using (Html.BeginForm("Order", "Cart", FormMethod.Post, new { id = "formCheckout" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <label for="customer_name" class="text-black col-form-label">Customer Name <span class="text-danger">*</span></label>
+                        @Html.EditorFor(model => model.customer_name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.customer_name, "", new { @class = "text-danger" })
+                    </div>
+
+
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <label for="phone_number" class="text-black col-form-label">Phone Number <span class="text-danger">*</span></label>
+                        @Html.EditorFor(model => model.phone_number, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.phone_number, "", new { @class = "text-danger" })
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <label for="address_shipping" class="text-black col-form-label">Address <span class="text-danger">*</span></label>
+                        @Html.EditorFor(model => model.address_shipping, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.address_shipping, "", new { @class = "text-danger" })
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <label for="note" class="text-black col-form-label">Order Notes <span class="text-danger">*</span></label>
+                        @Html.TextAreaFor(model => model.note, new { @class = "form-control", @placeholder = "Write your notes here...", @cols = "30", @rows = "5" })
+                        @Html.ValidationMessageFor(model => model.note, "", new { @class = "text-danger" })
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="country_id" class="text-black">Country Name<span class="text-danger">*</span></label>
+                        @Html.DropDownListFor(model => model.country_id, new SelectList(ViewBag.countries, "id", "country_name"), new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.country_id, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-6">
+                        <label for="city_id" class="text-black">City Name<span class="text-danger">*</span></label>
+                        @Html.DropDownListFor(model => model.city_id, new SelectList(ViewBag.cities, "id", "city_name"), new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.city_id, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="district_id" class="text-black">District Name <span class="text-danger">*</span></label>
+                        @Html.DropDownListFor(model => model.district_id, new SelectList(ViewBag.districts, "id", "district_name"), new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.district_id, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-md-6">
+                        <label for="ward_id" class="text-black">Ward Name <span class="text-danger">*</span></label>
+                        @Html.DropDownListFor(model => model.ward_id, new SelectList(ViewBag.wards, "id", "ward_name"), new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ward_id, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+        }
+
+        <h5 class="card-text"><strong style="color: #FF9E9E">Hình thức thanh toán:</strong></h5>
+        <p>Thanh toán khi nhận hàng.</p>
+    </div>
+    <div class="card-group cart-button">
+        <div class="card return-cart">
+            <div class="card-body">
+                <a href="@Url.Action("Carts", "Homepage")" class="btn btn-primary" style="background-color: white; border: none"><strong style="color:#FF9E9E">Quay về giỏ hàng</strong></a>
+            </div>
+        </div>
+        <div class="card order">
+            <div class="card-body">
+                <a onclick="submitForm()" class="btn btn-primary" style="background-color: #FF9E9E; border: none"><strong style="color: white">Đặt hàng</strong></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Order-->
+<!--EndPayment-->
+@section scripts {
+
+    <script>
+
+        function submitForm() {
+            $("#formCheckout").submit();
+        }
+
+    </script>
+
+}
